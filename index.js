@@ -3,7 +3,7 @@ const app = express();
 const port = 80;
 
 
-app.all("*", (res, res) => {
+app.all("*", (req, res) => {
 	res.send("Hello World!");
 });
 
